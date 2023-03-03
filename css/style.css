@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body, html{
+    overflow-x: hidden;
+}
+.box{
+    background-image: linear-gradient(to right, #A5F8FC, #121B65);
+    width: 75%;
+    height: 450px;
+    border-radius: 30px;
+    margin: 5% auto;
+    padding: 1rem;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 > img{
+    width: 130%;
+    margin-top: -3rem;
+}
+.sec2{
+    width: 50%;
+}
+.sec2 > h4{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+.sec2 > p{
+    text-align: right;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.sec2 > button{
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    padding: 1.3rem;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    float: right;
+}
+
+/**RESPONSIVE**/
+
+@media screen and (max-width: 1024px) {
+    .sections{
+        display: flex;
+    }
+    .sec1 > img{
+        width: 100%;
+        margin: 0;
+    }
+    .sec2{
+        width: 50%;
+    }
+    .sec2 > h4{
+        text-align: right;
+        font-size: 1.7rem;
+    }
+    .sec2 > p{
+        text-align: right;
+        font-size: 1rem;
+    }
+    .sec2 > button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        width: 100px;
+    }
+    .box{
+        height: 550px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .sections{
+        display: flex;
+    }
+    .sec1 > img{
+        width: 100%;
+        margin: 0;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec2 > h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .sec2 > p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sec2 > button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        width: 100px;
+    }
+    .box{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sections{
+        display: inline;
+    }
+    .sec1 > img{
+        width: 100%;
+        margin: 0;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec2 > h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .sec2 > p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sec2 > button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        width: 100px;
+    }
+    .box{
+        height: 730px;
+    }
+}
+@media screen and (max-width: 501px) {
+    .sections{
+        display: inline;
+    }
+    .sec1 > img{
+        width: 100%;
+        margin: 0;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec2 > h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .sec2 > p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sec2 > button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        width: 100px;
+    }
+    .box{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .sections{
+        display: inline;
+    }
+    .sec1 > img{
+        width: 100%;
+        margin: 0;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec2 > h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .sec2 > p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sec2 > button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        width: 100px;
+    }
+    .box{
+        height: 600px;
+    }
+}
+@media (min-width: 315px) and (max-width: 330px){
+    .sections{
+        display: inline;
+    }
+    .sec1 > img{
+        width: 100%;
+        margin: 0;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec2 > h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .sec2 > p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .sec2 > button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        width: 100px;
+    }
+    .box{
+        height: 600px;
+    }
+}
